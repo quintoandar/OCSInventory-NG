@@ -7,10 +7,10 @@ The files are the same of the [OCSInevntory-Docker-Image](https://github.com/OCS
 There's only three modifications on this Docker image:
 
 * Changed the root page from **```<server-url>/ocsreports```** to **```<server-url>/```**
-  * file ```scripts/docker-entrypoint.sh``` on line ```#44```
+  * file ```scripts/docker-entrypoint.sh``` line ```#44```
   
 * Installing the package ```php73-php-ldap``` for ldap integration
-  * file ```Dockerfile``` on line ```#63```
+  * file ```Dockerfile``` line ```#63```
 
 * Changed Timezone to ```TZ=America/Sao_Paulo```
-  * file ```Dockerfile``` on line ```#16```
+  * file ```Dockerfile``` line ```#16```
