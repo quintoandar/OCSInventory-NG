@@ -4,10 +4,13 @@
 
 The files are the same of the [OCSInevntory-Docker-Image](https://github.com/OCSInventory-NG/OCSInventory-Docker-Image) on its Version 2.6
 
-There's only two modifications on this Docker image:
+There's only three modifications on this Docker image:
 
 * Changed the root page from **```<server-url>/ocsreports```** to **```<server-url>/```**
   * file ```scripts/docker-entrypoint.sh``` on line ```#44```
   
 * Installing the package ```php73-php-ldap``` for ldap integration
   * file ```Dockerfile``` on line ```#63```
+
+* Changed Timezone to ```TZ=America/Sao_Paulo```
+  * file ```Dockerfile``` on line ```#16```

@@ -13,7 +13,7 @@ ENV APACHE_RUN_USER=apache APACHE_RUN_GROUP=apache \
     OCS_DB_SERVER=ocsdb OCS_DB_PORT=3306 OCS_DB_USER=ocs OCS_DB_PASS=ocs OCS_DB_NAME=ocsweb \
     OCS_LOG_DIR=/var/log/ocsinventory-server/ OCS_VARLIB_DIR=/var/lib/ocsinventory-reports/ OCS_WEBCONSOLE_DIR=/usr/share/ocsinventory-reports/ocsreports/ \
     OCS_PERLEXT_DIR=/etc/ocsinventory-server/perl/ OCS_PLUGINSEXT_DIR=/etc/ocsinventory-server/plugins/ \
-    TZ=Europe/Paris
+    TZ=America/Sao_Paulo
 
 WORKDIR /tmp
 
