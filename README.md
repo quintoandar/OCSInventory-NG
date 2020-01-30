@@ -4,7 +4,7 @@
 
 The files are the same of the [OCSInevntory-Docker-Image](https://github.com/OCSInventory-NG/OCSInventory-Docker-Image) on its Version 2.6
 
-There's only two modification on this image:
+There's only two modifications on this Docker image:
 
 * Changed the root page from **```<server-url>/ocsreports```** to **```<server-url>/```**
   * file ```scripts/docker-entrypoint.sh``` on line ```#44```
