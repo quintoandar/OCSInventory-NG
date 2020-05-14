@@ -2,7 +2,7 @@
 
 ## OCSInventory-NG Docker Image
 
-The files are the same of the [OCSInevntory-Docker-Image](https://github.com/OCSInventory-NG/OCSInventory-Docker-Image) on its Version 2.6
+The files are the same of the [OCSInevntory-Docker-Image](https://github.com/OCSInventory-NG/OCSInventory-Docker-Image) on its Version 2.6 or 2.7 (Folders)
 
 There's only three modifications on this Docker image:
 
@@ -14,3 +14,4 @@ There's only three modifications on this Docker image:
 
 * Changed Timezone to ```TZ=America/Sao_Paulo```
   * file ```Dockerfile``` line ```#16```
+  
